@@ -43,76 +43,76 @@
 }
 
 :root {
-  /* Cactus Digital Media Brand Colors - Updated Palette */
-  --primary: 210 55% 11%; /* deep navy #0d1a2b */
-  --primary-foreground: 40 20% 97%;
-  --secondary: 40 20% 97%; /* light warm gray #f9f9f7 */
-  --secondary-foreground: 0 0% 29%; /* charcoal #4a4a4a */
-  --accent: 42 58% 55%; /* warm gold #d2a84a */
-  --accent-foreground: 210 55% 11%;
-  --sidebar-primary: 210 55% 11%;
-  --sidebar-primary-foreground: 40 20% 97%;
-  --chart-1: 210 55% 21%;
-  --chart-2: 210 55% 31%;
-  --chart-3: 210 55% 41%;
-  --chart-4: 42 58% 55%;
-  --chart-5: 42 58% 65%;
-  --radius: 0.65rem;
-  --background: 40 20% 97%; /* light warm gray */
-  --foreground: 0 0% 29%; /* charcoal text */
+  /* Cactus Digital Media Brand Colors - Orange & Navy Palette */
+  --primary: 16 100% 60%; /* vibrant orange #FF6B35 */
+  --primary-foreground: 0 0% 100%; /* white text on orange */
+  --secondary: 223 54% 24%; /* deep navy blue #1B2A5E */
+  --secondary-foreground: 0 0% 100%; /* white text on navy */
+  --accent: 16 100% 60%; /* orange accent */
+  --accent-foreground: 0 0% 100%;
+  --sidebar-primary: 223 54% 24%; /* navy */
+  --sidebar-primary-foreground: 0 0% 100%;
+  --chart-1: 16 100% 60%;
+  --chart-2: 16 100% 70%;
+  --chart-3: 223 54% 24%;
+  --chart-4: 223 54% 34%;
+  --chart-5: 223 54% 44%;
+  --radius: 0.5rem;
+  --background: 0 0% 100%; /* white background */
+  --foreground: 0 0% 15%; /* dark text */
   --card: 0 0% 100%;
-  --card-foreground: 0 0% 29%;
+  --card-foreground: 0 0% 15%;
   --popover: 0 0% 100%;
-  --popover-foreground: 0 0% 29%;
-  --muted: 40 10% 92%;
+  --popover-foreground: 0 0% 15%;
+  --muted: 0 0% 96%;
   --muted-foreground: 0 0% 45%;
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 100%;
-  --border: 40 10% 88%;
-  --input: 40 10% 88%;
-  --ring: 210 55% 11%;
-  --sidebar: 0 0% 100%;
-  --sidebar-foreground: 0 0% 29%;
-  --sidebar-accent: 40 10% 92%;
-  --sidebar-accent-foreground: 0 0% 29%;
-  --sidebar-border: 40 10% 88%;
-  --sidebar-ring: 210 55% 11%;
+  --border: 0 0% 90%;
+  --input: 0 0% 90%;
+  --ring: 16 100% 60%; /* orange ring */
+  --sidebar: 223 54% 24%; /* navy sidebar */
+  --sidebar-foreground: 0 0% 100%;
+  --sidebar-accent: 16 100% 60%;
+  --sidebar-accent-foreground: 0 0% 100%;
+  --sidebar-border: 223 54% 34%;
+  --sidebar-ring: 16 100% 60%;
 }
 
 .dark {
-  /* Dark theme - Deep Navy Palette */
-  --primary: 210 55% 21%; /* lighter navy for dark mode */
-  --primary-foreground: 40 20% 97%;
-  --secondary: 210 45% 15%; /* darker navy */
-  --secondary-foreground: 40 20% 97%;
-  --accent: 42 58% 65%; /* brighter gold */
-  --accent-foreground: 210 55% 11%;
-  --sidebar-primary: 210 55% 21%;
-  --sidebar-primary-foreground: 40 20% 97%;
-  --background: 210 55% 11%; /* deep navy */
-  --foreground: 40 20% 97%; /* light warm text */
-  --card: 210 50% 15%;
-  --card-foreground: 40 20% 97%;
-  --popover: 210 50% 15%;
-  --popover-foreground: 40 20% 97%;
-  --muted: 210 45% 20%;
-  --muted-foreground: 40 10% 75%;
+  /* Dark theme - Navy & Orange */
+  --primary: 16 100% 65%; /* lighter orange for dark mode */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 223 54% 20%; /* darker navy */
+  --secondary-foreground: 0 0% 100%;
+  --accent: 16 100% 65%; /* orange accent */
+  --accent-foreground: 0 0% 100%;
+  --sidebar-primary: 223 54% 20%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --background: 223 54% 12%; /* deep navy background */
+  --foreground: 0 0% 95%; /* light text */
+  --card: 223 54% 16%;
+  --card-foreground: 0 0% 95%;
+  --popover: 223 54% 16%;
+  --popover-foreground: 0 0% 95%;
+  --muted: 223 40% 20%;
+  --muted-foreground: 0 0% 70%;
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 100%;
-  --border: 210 45% 25%;
-  --input: 210 45% 25%;
-  --ring: 42 58% 55%;
-  --chart-1: 210 55% 31%;
-  --chart-2: 210 55% 41%;
-  --chart-3: 210 55% 51%;
-  --chart-4: 42 58% 65%;
-  --chart-5: 42 58% 75%;
-  --sidebar: 210 50% 15%;
-  --sidebar-foreground: 40 20% 97%;
-  --sidebar-accent: 210 45% 20%;
-  --sidebar-accent-foreground: 40 20% 97%;
-  --sidebar-border: 210 45% 25%;
-  --sidebar-ring: 42 58% 55%;
+  --border: 223 40% 25%;
+  --input: 223 40% 25%;
+  --ring: 16 100% 65%;
+  --chart-1: 16 100% 65%;
+  --chart-2: 16 100% 75%;
+  --chart-3: 223 54% 30%;
+  --chart-4: 223 54% 40%;
+  --chart-5: 223 54% 50%;
+  --sidebar: 223 54% 16%;
+  --sidebar-foreground: 0 0% 95%;
+  --sidebar-accent: 16 100% 65%;
+  --sidebar-accent-foreground: 0 0% 100%;
+  --sidebar-border: 223 40% 25%;
+  --sidebar-ring: 16 100% 65%;
 }
 
 @layer base {

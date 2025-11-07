@@ -38,8 +38,8 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-background/95 backdrop-blur-md shadow-md py-3"
-          : "bg-transparent py-6"
+          ? "bg-secondary shadow-md py-3"
+          : "bg-secondary py-4"
       }`}
     >
       <div className="container">
@@ -61,10 +61,10 @@ export default function Navbar() {
               <Link 
                 key={link.href} 
                 href={link.href}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
+                className={`text-sm font-medium transition-colors ${
                   isActive(link.href)
                     ? "text-primary"
-                    : "text-foreground/70"
+                    : "text-secondary-foreground hover:text-primary"
                 }`}
               >
                 {link.label}
@@ -79,7 +79,7 @@ export default function Navbar() {
               variant="ghost"
               size="icon"
               onClick={toggleTheme}
-              className="hidden md:flex"
+              className="hidden md:flex text-secondary-foreground hover:text-primary"
             >
               {theme === "dark" ? (
                 <FaSun className="h-5 w-5" />
@@ -116,10 +116,10 @@ export default function Navbar() {
               <Link 
                 key={link.href} 
                 href={link.href}
-                className={`block text-base font-medium transition-colors hover:text-primary ${
+                className={`block text-base font-medium transition-colors ${
                   isActive(link.href)
                     ? "text-primary"
-                    : "text-foreground/70"
+                    : "text-secondary-foreground hover:text-primary"
                 }`}
                 onClick={() => setIsMobileMenuOpen(false)}
               >

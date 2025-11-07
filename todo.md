@@ -114,3 +114,12 @@
 - [x] Fix nested anchor tags in Navbar (Link already renders <a>)
 - [x] Fix nested anchor tags in Footer (Link already renders <a>)
 - [x] Fix duplicate keys in Footer component lists
+
+## Color Scheme Update (Reference Design)
+- [x] Update primary color to orange (#FF6B35)
+- [x] Update header/footer to deep navy blue (#1B2A5E)
+- [x] Update button styles with orange primary
+- [x] Update nav menu hover effects
+- [x] Update accent colors throughout
+- [x] Rebuild production dist for cPanel
+- [ ] Push updated build to GitHub

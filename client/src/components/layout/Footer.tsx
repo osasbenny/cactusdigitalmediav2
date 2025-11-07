@@ -34,7 +34,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-card border-t border-border">
+    <footer className="bg-secondary text-secondary-foreground border-t border-secondary-foreground/20">
       <div className="container py-12 md:py-16">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
@@ -47,12 +47,12 @@ export default function Footer() {
                 className="h-12"
               />
             </Link>
-            <p className="text-muted-foreground mb-6 max-w-sm">
+            <p className="text-secondary-foreground/80 mb-6 max-w-sm">
               A Lagos-based full-service digital agency specializing in Web Design, App Development, Branding & Growth Strategy.
             </p>
             
             {/* Contact Info */}
-            <div className="space-y-3 text-sm text-muted-foreground">
+            <div className="space-y-3 text-sm text-secondary-foreground/80">
               <div className="flex items-start space-x-3">
                 <FaMapMarkerAlt className="mt-1 text-accent flex-shrink-0" />
                 <span>123 Victoria Island, Lagos, Nigeria</span>
@@ -74,11 +74,11 @@ export default function Footer() {
 
           {/* Company Links */}
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Company</h3>
+            <h3 className="font-semibold text-secondary-foreground mb-4">Company</h3>
             <ul className="space-y-3">
               {footerLinks.company.map((link, index) => (
                 <li key={`company-${index}`}>
-                  <Link href={link.href} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  <Link href={link.href} className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -88,11 +88,11 @@ export default function Footer() {
 
           {/* Services Links */}
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Services</h3>
+            <h3 className="font-semibold text-secondary-foreground mb-4">Services</h3>
             <ul className="space-y-3">
               {footerLinks.services.map((link, index) => (
                 <li key={`services-${index}`}>
-                  <Link href={link.href} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  <Link href={link.href} className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -102,11 +102,11 @@ export default function Footer() {
 
           {/* Support Links */}
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Support</h3>
+            <h3 className="font-semibold text-secondary-foreground mb-4">Support</h3>
             <ul className="space-y-3">
               {footerLinks.support.map((link, index) => (
                 <li key={`support-${index}`}>
-                  <Link href={link.href} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  <Link href={link.href} className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -116,10 +116,10 @@ export default function Footer() {
         </div>
 
         {/* Bottom Footer */}
-        <div className="pt-8 border-t border-border">
+        <div className="pt-8 border-t border-secondary-foreground/20">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             {/* Copyright */}
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-secondary-foreground/70">
               © {currentYear} {APP_TITLE}. All rights reserved.
             </p>
 
@@ -131,7 +131,7 @@ export default function Footer() {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-colors flex items-center justify-center"
+                  className="w-10 h-10 rounded-full bg-secondary-foreground/10 hover:bg-primary hover:text-primary-foreground transition-colors flex items-center justify-center text-secondary-foreground"
                   aria-label={social.label}
                 >
                   <social.icon className="w-4 h-4" />
