@@ -1,0 +1,89 @@
+# Cactus Digital Media - Project TODO
+
+## Setup & Configuration
+- [x] Configure TailwindCSS with custom color palette (deep green, desert sand, gold, warm gray)
+- [x] Install and configure Framer Motion for animations
+- [x] Install and configure Swiper.js for sliders
+- [x] Set up React Router (wouter) for page navigation
+- [x] Create folder structure: /components, /pages, /sections, /data, /assets
+- [x] Add Google Fonts for typography
+- [ ] Configure SEO meta tags for all pages
+
+## Global Components
+- [x] Sticky navbar with scroll-shrink effect
+- [x] Footer with contact details and social links
+- [x] Light/Dark mode toggle
+- [x] Floating WhatsApp chat button
+- [ ] Inquiry popup modal
+- [ ] Smooth page transitions
+
+## Home Page
+- [x] Hero section with bold headline and subtext
+- [x] Call-to-action buttons (Get a Free Quote, See Projects)
+- [x] Showcase 6 recent projects in modern grid with hover animations
+- [x] Services overview section (6 services)
+- [x] Testimonials slider
+- [x] Blog preview section with 3 recent articles
+- [x] Animated statistics counters
+
+## About Page
+- [x] Agency story, mission, and values section
+- [x] Company stats display (Projects completed, Years experience, Clients served)
+- [x] Team section with clean cards and hover interactions
+
+## Services Page
+- [x] Service cards with icon, description, and CTA
+- [x] Detailed sections for Website Design
+- [x] Detailed sections for Mobile App Development
+- [x] Detailed sections for UI/UX Design
+- [x] Detailed sections for E-commerce Solutions
+- [x] Detailed sections for Branding & SEO
+- [x] Detailed sections for Maintenance & Support
+
+## Portfolio Page
+- [x] Grid layout of past projects
+- [x] Project cards with image preview, title, and category
+- [x] Filter by category (Web App, E-commerce, UI/UX, Mobile)
+- [x] Project Detail Page with hero screenshot
+- [x] Problem → Process → Solution sections
+- [x] Technologies used display
+- [x] Before/After comparison
+- [x] Link to live site
+
+## Blog Page
+- [x] Clean grid of articles (title, image, excerpt)
+- [x] Single blog post layout with typography styling
+- [x] Blog categories and tags
+
+## Contact Page
+- [x] Contact form (name, email, phone, message)
+- [x] Google Maps integration
+- [x] Agency address, phone, email display
+- [x] Social media links
+
+## Data & Content
+- [x] Create dummy service data
+- [x] Create dummy project/portfolio data with images
+- [x] Create dummy blog articles content
+- [x] Create dummy testimonials data
+- [x] Create team member data
+
+## Animations & Interactions
+- [x] Smooth scroll animations
+- [x] Hover effects on cards and buttons
+- [x] Parallax effects
+- [x] Fade-in animations on scroll
+- [x] Micro-interactions throughout the site
+
+## Optimization & Polish
+- [x] Ensure full mobile responsiveness
+- [x] Optimize images and assets
+- [x] Add loading states
+- [x] Test all navigation and links
+- [x] Cross-browser testing
+- [x] Performance optimization
+
+## GitHub Integration
+- [ ] Connect to GitHub repository
+- [ ] Commit all code
+- [ ] Push to remote repository

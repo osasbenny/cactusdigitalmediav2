@@ -43,74 +43,76 @@
 }
 
 :root {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-600);
-  --sidebar-primary-foreground: var(--color-blue-50);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
+  /* Cactus Digital Media Brand Colors */
+  --primary: 165 95% 15%; /* deep green #064E3B */
+  --primary-foreground: 30 35% 96%;
+  --secondary: 40 50% 92%; /* desert sand #F4E7D3 */
+  --secondary-foreground: 165 95% 15%;
+  --accent: 45 82% 47%; /* gold #D6A419 */
+  --accent-foreground: 210 40% 6%;
+  --sidebar-primary: 165 95% 15%;
+  --sidebar-primary-foreground: 30 35% 96%;
+  --chart-1: 165 95% 25%;
+  --chart-2: 165 95% 35%;
+  --chart-3: 165 95% 45%;
+  --chart-4: 45 82% 47%;
+  --chart-5: 40 50% 82%;
   --radius: 0.65rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.235 0.015 65);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.235 0.015 65);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.235 0.015 65);
-  --secondary: oklch(0.98 0.001 286.375);
-  --secondary-foreground: oklch(0.4 0.015 65);
-  --muted: oklch(0.967 0.001 286.375);
-  --muted-foreground: oklch(0.552 0.016 285.938);
-  --accent: oklch(0.967 0.001 286.375);
-  --accent-foreground: oklch(0.141 0.005 285.823);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.92 0.004 286.32);
-  --input: oklch(0.92 0.004 286.32);
-  --ring: oklch(0.623 0.214 259.815);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.235 0.015 65);
-  --sidebar-accent: oklch(0.967 0.001 286.375);
-  --sidebar-accent-foreground: oklch(0.141 0.005 285.823);
-  --sidebar-border: oklch(0.92 0.004 286.32);
-  --sidebar-ring: oklch(0.623 0.214 259.815);
+  --background: 30 35% 98%; /* warm gray light */
+  --foreground: 210 40% 6%; /* deep dark text */
+  --card: 0 0% 100%;
+  --card-foreground: 210 40% 6%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 210 40% 6%;
+  --muted: 30 20% 94%;
+  --muted-foreground: 210 20% 40%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 30 20% 88%;
+  --input: 30 20% 88%;
+  --ring: 165 95% 15%;
+  --sidebar: 0 0% 100%;
+  --sidebar-foreground: 210 40% 6%;
+  --sidebar-accent: 30 20% 94%;
+  --sidebar-accent-foreground: 210 40% 6%;
+  --sidebar-border: 30 20% 88%;
+  --sidebar-ring: 165 95% 15%;
 }
 
 .dark {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-500);
-  --sidebar-primary-foreground: var(--color-blue-50);
-  --background: oklch(0.141 0.005 285.823);
-  --foreground: oklch(0.85 0.005 65);
-  --card: oklch(0.21 0.006 285.885);
-  --card-foreground: oklch(0.85 0.005 65);
-  --popover: oklch(0.21 0.006 285.885);
-  --popover-foreground: oklch(0.85 0.005 65);
-  --secondary: oklch(0.24 0.006 286.033);
-  --secondary-foreground: oklch(0.7 0.005 65);
-  --muted: oklch(0.274 0.006 286.033);
-  --muted-foreground: oklch(0.705 0.015 286.067);
-  --accent: oklch(0.274 0.006 286.033);
-  --accent-foreground:  oklch(0.92 0.005 65);
-  --destructive: oklch(0.704 0.191 22.216);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.488 0.243 264.376);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
-  --sidebar: oklch(0.21 0.006 285.885);
-  --sidebar-foreground: oklch(0.85 0.005 65);
-  --sidebar-accent: oklch(0.274 0.006 286.033);
-  --sidebar-accent-foreground:  oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.488 0.243 264.376);
+  /* Dark theme for Cactus Digital Media */
+  --primary: 165 95% 20%; /* lighter green for dark mode */
+  --primary-foreground: 30 35% 96%;
+  --secondary: 40 50% 82%; /* lighter desert sand */
+  --secondary-foreground: 165 95% 15%;
+  --accent: 45 82% 57%; /* brighter gold */
+  --accent-foreground: 210 40% 6%;
+  --sidebar-primary: 165 95% 20%;
+  --sidebar-primary-foreground: 30 35% 96%;
+  --background: 210 40% 6%; /* deep dark */
+  --foreground: 30 35% 96%; /* warm light text */
+  --card: 210 35% 10%;
+  --card-foreground: 30 35% 96%;
+  --popover: 210 35% 10%;
+  --popover-foreground: 30 35% 96%;
+  --muted: 210 30% 15%;
+  --muted-foreground: 30 20% 70%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 210 30% 20%;
+  --input: 210 30% 20%;
+  --ring: 165 95% 25%;
+  --chart-1: 165 95% 30%;
+  --chart-2: 165 95% 40%;
+  --chart-3: 165 95% 50%;
+  --chart-4: 45 82% 57%;
+  --chart-5: 40 50% 82%;
+  --sidebar: 210 35% 10%;
+  --sidebar-foreground: 30 35% 96%;
+  --sidebar-accent: 210 30% 15%;
+  --sidebar-accent-foreground: 30 35% 96%;
+  --sidebar-border: 210 30% 20%;
+  --sidebar-ring: 165 95% 25%;
 }
 
 @layer base {
@@ -173,5 +175,14 @@
       padding-right: 2rem;
       max-width: 1280px; /* Standard content width */
     }
+  }
+}
+@layer base {
+  :root {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
   }
 }
