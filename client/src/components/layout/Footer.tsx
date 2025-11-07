@@ -41,9 +41,12 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <Link href="/">
-              <a className="flex items-center space-x-2 text-2xl font-bold text-primary mb-4">
-                <span className="text-accent">🌵</span>
-                <span>{APP_TITLE}</span>
+              <a className="flex items-center mb-4">
+                <img 
+                  src="/logo.jpg" 
+                  alt="Cactus Digital Media" 
+                  className="h-12"
+                />
               </a>
             </Link>
             <p className="text-muted-foreground mb-6 max-w-sm">

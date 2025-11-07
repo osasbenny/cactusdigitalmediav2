@@ -46,9 +46,14 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/">
-            <a className="flex items-center space-x-2 text-2xl font-bold text-primary hover:opacity-80 transition-opacity">
-              <span className="text-accent">🌵</span>
-              <span>{APP_TITLE}</span>
+            <a className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
+              <img 
+                src="/logo.jpg" 
+                alt="Cactus Digital Media" 
+                className={`transition-all duration-300 ${
+                  isScrolled ? "h-10" : "h-12"
+                }`}
+              />
             </a>
           </Link>
 
