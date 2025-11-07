@@ -43,76 +43,76 @@
 }
 
 :root {
-  /* Cactus Digital Media Brand Colors */
-  --primary: 165 95% 15%; /* deep green #064E3B */
-  --primary-foreground: 30 35% 96%;
-  --secondary: 40 50% 92%; /* desert sand #F4E7D3 */
-  --secondary-foreground: 165 95% 15%;
-  --accent: 45 82% 47%; /* gold #D6A419 */
-  --accent-foreground: 210 40% 6%;
-  --sidebar-primary: 165 95% 15%;
-  --sidebar-primary-foreground: 30 35% 96%;
-  --chart-1: 165 95% 25%;
-  --chart-2: 165 95% 35%;
-  --chart-3: 165 95% 45%;
-  --chart-4: 45 82% 47%;
-  --chart-5: 40 50% 82%;
+  /* Cactus Digital Media Brand Colors - Updated Palette */
+  --primary: 210 55% 11%; /* deep navy #0d1a2b */
+  --primary-foreground: 40 20% 97%;
+  --secondary: 40 20% 97%; /* light warm gray #f9f9f7 */
+  --secondary-foreground: 0 0% 29%; /* charcoal #4a4a4a */
+  --accent: 42 58% 55%; /* warm gold #d2a84a */
+  --accent-foreground: 210 55% 11%;
+  --sidebar-primary: 210 55% 11%;
+  --sidebar-primary-foreground: 40 20% 97%;
+  --chart-1: 210 55% 21%;
+  --chart-2: 210 55% 31%;
+  --chart-3: 210 55% 41%;
+  --chart-4: 42 58% 55%;
+  --chart-5: 42 58% 65%;
   --radius: 0.65rem;
-  --background: 30 35% 98%; /* warm gray light */
-  --foreground: 210 40% 6%; /* deep dark text */
+  --background: 40 20% 97%; /* light warm gray */
+  --foreground: 0 0% 29%; /* charcoal text */
   --card: 0 0% 100%;
-  --card-foreground: 210 40% 6%;
+  --card-foreground: 0 0% 29%;
   --popover: 0 0% 100%;
-  --popover-foreground: 210 40% 6%;
-  --muted: 30 20% 94%;
-  --muted-foreground: 210 20% 40%;
+  --popover-foreground: 0 0% 29%;
+  --muted: 40 10% 92%;
+  --muted-foreground: 0 0% 45%;
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 100%;
-  --border: 30 20% 88%;
-  --input: 30 20% 88%;
-  --ring: 165 95% 15%;
+  --border: 40 10% 88%;
+  --input: 40 10% 88%;
+  --ring: 210 55% 11%;
   --sidebar: 0 0% 100%;
-  --sidebar-foreground: 210 40% 6%;
-  --sidebar-accent: 30 20% 94%;
-  --sidebar-accent-foreground: 210 40% 6%;
-  --sidebar-border: 30 20% 88%;
-  --sidebar-ring: 165 95% 15%;
+  --sidebar-foreground: 0 0% 29%;
+  --sidebar-accent: 40 10% 92%;
+  --sidebar-accent-foreground: 0 0% 29%;
+  --sidebar-border: 40 10% 88%;
+  --sidebar-ring: 210 55% 11%;
 }
 
 .dark {
-  /* Dark theme for Cactus Digital Media */
-  --primary: 165 95% 20%; /* lighter green for dark mode */
-  --primary-foreground: 30 35% 96%;
-  --secondary: 40 50% 82%; /* lighter desert sand */
-  --secondary-foreground: 165 95% 15%;
-  --accent: 45 82% 57%; /* brighter gold */
-  --accent-foreground: 210 40% 6%;
-  --sidebar-primary: 165 95% 20%;
-  --sidebar-primary-foreground: 30 35% 96%;
-  --background: 210 40% 6%; /* deep dark */
-  --foreground: 30 35% 96%; /* warm light text */
-  --card: 210 35% 10%;
-  --card-foreground: 30 35% 96%;
-  --popover: 210 35% 10%;
-  --popover-foreground: 30 35% 96%;
-  --muted: 210 30% 15%;
-  --muted-foreground: 30 20% 70%;
+  /* Dark theme - Deep Navy Palette */
+  --primary: 210 55% 21%; /* lighter navy for dark mode */
+  --primary-foreground: 40 20% 97%;
+  --secondary: 210 45% 15%; /* darker navy */
+  --secondary-foreground: 40 20% 97%;
+  --accent: 42 58% 65%; /* brighter gold */
+  --accent-foreground: 210 55% 11%;
+  --sidebar-primary: 210 55% 21%;
+  --sidebar-primary-foreground: 40 20% 97%;
+  --background: 210 55% 11%; /* deep navy */
+  --foreground: 40 20% 97%; /* light warm text */
+  --card: 210 50% 15%;
+  --card-foreground: 40 20% 97%;
+  --popover: 210 50% 15%;
+  --popover-foreground: 40 20% 97%;
+  --muted: 210 45% 20%;
+  --muted-foreground: 40 10% 75%;
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 100%;
-  --border: 210 30% 20%;
-  --input: 210 30% 20%;
-  --ring: 165 95% 25%;
-  --chart-1: 165 95% 30%;
-  --chart-2: 165 95% 40%;
-  --chart-3: 165 95% 50%;
-  --chart-4: 45 82% 57%;
-  --chart-5: 40 50% 82%;
-  --sidebar: 210 35% 10%;
-  --sidebar-foreground: 30 35% 96%;
-  --sidebar-accent: 210 30% 15%;
-  --sidebar-accent-foreground: 30 35% 96%;
-  --sidebar-border: 210 30% 20%;
-  --sidebar-ring: 165 95% 25%;
+  --border: 210 45% 25%;
+  --input: 210 45% 25%;
+  --ring: 42 58% 55%;
+  --chart-1: 210 55% 31%;
+  --chart-2: 210 55% 41%;
+  --chart-3: 210 55% 51%;
+  --chart-4: 42 58% 65%;
+  --chart-5: 42 58% 75%;
+  --sidebar: 210 50% 15%;
+  --sidebar-foreground: 40 20% 97%;
+  --sidebar-accent: 210 45% 20%;
+  --sidebar-accent-foreground: 40 20% 97%;
+  --sidebar-border: 210 45% 25%;
+  --sidebar-ring: 42 58% 55%;
 }
 
 @layer base {
