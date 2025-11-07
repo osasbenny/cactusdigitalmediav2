@@ -109,3 +109,8 @@
 - [x] Update HTML meta tags with favicon
 - [x] Rebuild production with logo
 - [x] Push updated build to GitHub
+
+## Bug Fixes
+- [x] Fix nested anchor tags in Navbar (Link already renders <a>)
+- [x] Fix nested anchor tags in Footer (Link already renders <a>)
+- [x] Fix duplicate keys in Footer component lists

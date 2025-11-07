@@ -45,16 +45,14 @@ export default function Navbar() {
       <div className="container">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/">
-            <a className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
-              <img 
-                src="/logo.jpg" 
-                alt="Cactus Digital Media" 
-                className={`transition-all duration-300 ${
-                  isScrolled ? "h-10" : "h-12"
-                }`}
-              />
-            </a>
+          <Link href="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
+            <img 
+              src="/logo.jpg" 
+              alt="Cactus Digital Media" 
+              className={`transition-all duration-300 ${
+                isScrolled ? "h-10" : "h-12"
+              }`}
+            />
           </Link>
 
           {/* Desktop Navigation */}

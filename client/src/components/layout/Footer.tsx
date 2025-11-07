@@ -40,14 +40,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
           {/* Brand Column */}
           <div className="lg:col-span-2">
-            <Link href="/">
-              <a className="flex items-center mb-4">
-                <img 
-                  src="/logo.jpg" 
-                  alt="Cactus Digital Media" 
-                  className="h-12"
-                />
-              </a>
+            <Link href="/" className="flex items-center mb-4">
+              <img 
+                src="/logo.jpg" 
+                alt="Cactus Digital Media" 
+                className="h-12"
+              />
             </Link>
             <p className="text-muted-foreground mb-6 max-w-sm">
               A Lagos-based full-service digital agency specializing in Web Design, App Development, Branding & Growth Strategy.
@@ -78,12 +76,10 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-foreground mb-4">Company</h3>
             <ul className="space-y-3">
-              {footerLinks.company.map((link) => (
-                <li key={link.href}>
-                  <Link href={link.href}>
-                    <a className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                      {link.label}
-                    </a>
+              {footerLinks.company.map((link, index) => (
+                <li key={`company-${index}`}>
+                  <Link href={link.href} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                    {link.label}
                   </Link>
                 </li>
               ))}
@@ -94,12 +90,10 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-foreground mb-4">Services</h3>
             <ul className="space-y-3">
-              {footerLinks.services.map((link) => (
-                <li key={link.href}>
-                  <Link href={link.href}>
-                    <a className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                      {link.label}
-                    </a>
+              {footerLinks.services.map((link, index) => (
+                <li key={`services-${index}`}>
+                  <Link href={link.href} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                    {link.label}
                   </Link>
                 </li>
               ))}
@@ -110,12 +104,10 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-foreground mb-4">Support</h3>
             <ul className="space-y-3">
-              {footerLinks.support.map((link) => (
-                <li key={link.href}>
-                  <Link href={link.href}>
-                    <a className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                      {link.label}
-                    </a>
+              {footerLinks.support.map((link, index) => (
+                <li key={`support-${index}`}>
+                  <Link href={link.href} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                    {link.label}
                   </Link>
                 </li>
               ))}
