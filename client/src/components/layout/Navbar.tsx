@@ -58,16 +58,16 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
             {navLinks.map((link) => (
-              <Link key={link.href} href={link.href}>
-                <a
-                  className={`text-sm font-medium transition-colors hover:text-primary ${
-                    isActive(link.href)
-                      ? "text-primary"
-                      : "text-foreground/70"
-                  }`}
-                >
-                  {link.label}
-                </a>
+              <Link 
+                key={link.href} 
+                href={link.href}
+                className={`text-sm font-medium transition-colors hover:text-primary ${
+                  isActive(link.href)
+                    ? "text-primary"
+                    : "text-foreground/70"
+                }`}
+              >
+                {link.label}
               </Link>
             ))}
           </div>
@@ -113,17 +113,17 @@ export default function Navbar() {
         {isMobileMenuOpen && (
           <div className="lg:hidden mt-6 pb-6 space-y-4 border-t border-border pt-6">
             {navLinks.map((link) => (
-              <Link key={link.href} href={link.href}>
-                <a
-                  className={`block text-base font-medium transition-colors hover:text-primary ${
-                    isActive(link.href)
-                      ? "text-primary"
-                      : "text-foreground/70"
-                  }`}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  {link.label}
-                </a>
+              <Link 
+                key={link.href} 
+                href={link.href}
+                className={`block text-base font-medium transition-colors hover:text-primary ${
+                  isActive(link.href)
+                    ? "text-primary"
+                    : "text-foreground/70"
+                }`}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {link.label}
               </Link>
             ))}
             <div className="flex items-center space-x-4 pt-4">
